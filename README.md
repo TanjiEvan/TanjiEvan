@@ -9,7 +9,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tanjievan&label=Profile%20views&color=0e75b6&style=flat" alt="tanjievan" /> </p>
 
 
-<h3 align="left">👩‍💻  About Me-</h3>
+<h3 align="left">🧑‍💻  About Me-</h3>
 
 📚 **I’m currently student of**- American International University-Bangladesh
 
@@ -26,7 +26,7 @@
 <a href="https://instagram.com/_____e_g_o_i_s_t_____" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_____e_g_o_i_s_t_____" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+<h3 align="left">🛠️ Languages and Tools:</h3>
 <p align="center"> 
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" style="margin-right: 15px;"/> 
@@ -51,9 +51,11 @@
   </a>
 </p>
 
-<h3>My Stats- </h3>
-<p><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=tanjievan&show_icons=true&locale=en&layout=compact" alt="tanjievan" /></p>
+<h3>📊 My Stats- </h3>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=tanjievan&show_icons=true&locale=en" alt="tanjievan" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=tanjievan&" alt="tanjievan" /></p>
+<div align="center">
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=tanjievan&show_icons=true&locale=en&layout=compact" alt="tanjievan" /></p>
+<p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=tanjievan&show_icons=true&locale=en" alt="tanjievan" /></p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=TanjiEvan&radius=16&theme=react&area=true&order=5" height="auto" width="100%" alt="activity-graph graph"  />
+<p><img src="https://github-readme-streak-stats.herokuapp.com/?user=tanjievan&" alt="tanjievan" /></p>
+</div>
