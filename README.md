@@ -5,11 +5,20 @@
   <img width="auto" height="auto" src="https://assets-global.website-files.com/5c19100c2b50073e6ee69da1/60d35967a853a1b14851703b_All%20the%20data%20(1).gif"  />
 </div>
 
+<div align="center">
+  <a href="https://www.instagram.com/_____e_g_o_i_s_t_____/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
+  </a>
+  <a href="https://www.facebook.com/TanjiEvan/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="facebook logo"  />
+  </a>
+</div>
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tanjievan&label=Profile%20views&color=0e75b6&style=flat" alt="tanjievan" /> </p>
 
 
-<h3 align="left">🧑‍💻  About Me-</h3>
+<h3 align="left"><img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me-</h3>
 
 📚 **I’m currently student of**- American International University-Bangladesh
 
@@ -20,13 +29,11 @@
 - Exploring machine learning fundamentals.  
 - Working on personal data analysis projects.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://fb.com/tanjievan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="tanjievan" height="30" width="40" /></a>
-<a href="https://instagram.com/_____e_g_o_i_s_t_____" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_____e_g_o_i_s_t_____" height="30" width="40" /></a>
-</p>
 
-<h3 align="left">🛠️ Languages and Tools:</h3>
+<hr>
+<h2 align="center"> 🛠️ Languages and Tools 🛠️ </h2>
+<br>
+
 <p align="center"> 
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" style="margin-right: 15px;"/> 
@@ -50,12 +57,29 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Power_bi_logo_black.svg" alt="powerbi" width="70" height="40" style="margin-right: 15px;"/> 
   </a>
 </p>
+<hr>
 
-<h3>📊 My Stats- </h3>
+<h2 align="center">📊 My Stats 📊</h2>
+<br>
+<p align=center>
+  <div align=center>
+    <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Go to Source">
+      <img align="left" width=390 src="https://streak-stats.demolab.com/?user=TanjiEvan&theme=react&border=61dafb&hide_border=true" alt="TanjiEvan" />
+    </a>
+    <a href="https://github.com/anuraghazra/github-readme-stats" title="Go to Source">
+      <img align="right" width=390 src="https://github-readme-stats.vercel.app/api?username=TanjiEvan&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
+    </a>
+  </div>
+  <br><br><br><br><br><br><br><br><br>
+  <div align=center>
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+      <img width=370 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanjiEvan&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true&size_weight=0.5&count_weight=0.5" />
+    </a>
+  </div>
+  <br>
 
-<div align="center">
-<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=tanjievan&show_icons=true&locale=en&layout=compact" alt="tanjievan" /></p>
-<p>&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=tanjievan&show_icons=true&locale=en" alt="tanjievan" /></p>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=TanjiEvan&radius=16&theme=react&area=true&order=5" height="auto" width="100%" alt="activity-graph graph"  />
-<p><img src="https://github-readme-streak-stats.herokuapp.com/?user=tanjievan&" alt="tanjievan" /></p>
-</div>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TanjiEvan&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+</p>
+
+<hr>
+
