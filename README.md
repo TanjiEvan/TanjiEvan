@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <a href="https://www.instagram.com/_____e_g_o_i_s_t_____/" target="_blank">
+  <a href="https://www.instagram.com/tanji_evan/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
   </a>
   <a href="https://www.facebook.com/TanjiEvan/" target="_blank">
