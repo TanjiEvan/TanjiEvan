@@ -104,7 +104,10 @@
   </div>
   <br>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TanjiEvan&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TanjiEvan&radius=16&theme=react-dark&bg_color=20232a&area=true&order=5" height="auto" width="100%" alt="activity-graph graph"  />
+
+
+
 </p>
 
 <hr>
