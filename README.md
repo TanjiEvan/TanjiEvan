@@ -11,6 +11,13 @@
   </a>
   <a href="https://www.facebook.com/TanjiEvan/" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="facebook logo"  />
+     <a href="https://platform.stratascratch.com/user/TanjiEvan" target="_blank">
+     <img src="https://cdn.sanity.io/images/oaglaatp/production/b43ef4b31b5558ae043ba07a99a423e7bf58d8b1-1200x400.png?w=1200&h=400&auto=format" height="25" alt="stratascratch logo" style="width: 200; max-width: 200;" />
+  </a>
+  </a>
+  </a>
+  <a href="https://www.linkedin.com/in/tanjib-ul-islam-aba9b5310/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0A66C2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
   </a>
 </div>
 
