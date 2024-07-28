@@ -29,7 +29,7 @@
 
 📚 **I’m currently a student at** - American International University-Bangladesh
 
-➡️ Aspiring Data Science Enthusiast on a learning journey with a passion for working with data and uncovering insights. Currently focused on learning Python and SQL, I am building a strong foundation in data analysis and visualization. I am also learning statistics and will soon start learning machine learning. Eager to explore every aspect of data science, including advanced analytics, I am driven by curiosity and a commitment to continuous learning. I aim to transform raw data into actionable intelligence and am excited to connect with like-minded professionals and explore opportunities to grow and achieve my dream of becoming a data scientist.
+➡️ I am an aspiring data scientist on a learning journey with a passion for working with data and uncovering insights. Currently a student focused on learning Python and SQL, I am building a strong foundation in data analysis and visualization. I am also learning statistics and will soon start learning machine learning. Eager to explore every aspect of data science, including advanced analytics, I am driven by curiosity and a commitment to continuous learning. I aim to transform raw data into actionable intelligence and am excited to connect with like-minded professionals and explore opportunities to grow and achieve my dream of becoming a data scientist.
 
 <br>
 <h2 align="center"> 🛠️ Languages and Tools 🛠️ </h2>
