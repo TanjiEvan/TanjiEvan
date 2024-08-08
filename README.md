@@ -1,5 +1,5 @@
 <h1 align="center">Hello! 👋, I'm Tanjib Ul Islam</h1>
-<h3 align="center">Data Science Enthusiast on a Learning Journey!</h3>
+<h3 align="center">Data Science Enthusiast on a Learning Journey</h3>
 
 <div align="center">
   <img width="auto" height="auto" src="https://assets-global.website-files.com/5c19100c2b50073e6ee69da1/60d35967a853a1b14851703b_All%20the%20data%20(1).gif"  />
