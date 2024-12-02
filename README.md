@@ -29,7 +29,11 @@
 
 📚 **I’m currently a student at** -  American International University-Bangladesh
 
-➡️ I am an aspiring data scientist on a learning journey with a passion for working with data and uncovering insights. Currently a student focused on learning Python and SQL, I am building a strong foundation in data analysis and visualization. I am also learning statistics and will soon start learning machine learning. Eager to explore every aspect of data science, including advanced analytics, I am driven by curiosity and a commitment to continuous learning. I aim to transform raw data into actionable intelligence and am excited to connect with like-minded professionals and explore opportunities to grow and achieve my dream of becoming a data scientist.
+➡️ I’m a data science enthusiast with a passion for using data to solve real-world problems. Currently interning at Data Solution-360, I’m honing my skills in Python, SQL, data visualization, exploratory data analysis (EDA), and machine learning. I love the challenge of transforming complex data into meaningful insights that drive better decisions.
+
+What excites me most about data science is its power to uncover hidden patterns and help organizations make informed decisions. My academic achievements, including being named to the Dean's List for academic excellence and securing 1st Runner-Up in the Data Hackathon at Comilla University IT Fest 2024, reflect my commitment to continuous learning and delivering results.
+
+With a strong foundation in data science and a constant drive to learn, my ultimate goal is to become a data scientist, applying my expertise to solve complex business problems and make data-driven decisions that create value. I am excited about the future and eager to contribute to the world of data science as I continue to grow professionally.
 
 <br>
 <h2 align="center"> 🛠️ Languages and Tools 🛠️ </h2>
