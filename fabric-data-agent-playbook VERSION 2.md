@@ -45,7 +45,8 @@ We begin with an existing Power BI report and semantic model that follows best p
 
 Open your Power BI file. The report displays key AR metrics:
 
-![AR Dashboard](screenshots/step1-01-dashboard.png)
+<img width="1442" height="806" alt="image" src="https://github.com/user-attachments/assets/052125de-7f48-4cad-8213-4f8fe99a163f" />
+
 
 **Key Metrics Displayed:**
 
@@ -67,7 +68,8 @@ Open your Power BI file. The report displays key AR metrics:
 
 1. Click the **Model view** icon in the left sidebar
 
-![Going to Model View](screenshots/1__Going_to_Data_Model.png)
+<img width="1533" height="954" alt="1  Going to Data Model" src="https://github.com/user-attachments/assets/ee7f8a1f-aed3-4cfe-a3c1-b294483c168e" />
+
 
 ---
 
@@ -78,7 +80,8 @@ A **star schema** is the ideal structure for Fabric Data Agent. It consists of:
 - **Dimension tables** surrounding them with descriptive attributes
 - **Dimensions connect directly to fact tables** (no dimension-to-dimension chains)
 
-![Star Schema](screenshots/2__Star_Schema.png)
+<img width="1112" height="775" alt="2  Star Schema" src="https://github.com/user-attachments/assets/4fb01df0-1530-4a6c-980e-db7e9e767661" />
+
 
 **Our Model:**
 
@@ -97,13 +100,15 @@ The **Better Decisions AR Analytics** semantic model follows star schema design 
 
 1. Click **Manage relationships** in the Home tab
 
-![Manage Relationships](screenshots/3__Manage_Relations.png)
+<img width="1397" height="935" alt="3  Manage Relations" src="https://github.com/user-attachments/assets/91ebd8e2-099f-48f7-a6fc-a913c46763fc" />
+
 
 2. Verify all relationships show:
    - **Many-to-One** cardinality (`*:1`)
    - **Single** cross-filter direction
 
-![Relationships Dialog](screenshots/4__The_Relationships.png)
+<img width="846" height="740" alt="4  The Relationships" src="https://github.com/user-attachments/assets/d58bae4c-4da3-45cd-86e2-b65fb66e326e" />
+
 
 All relationships in our model are configured correctly as Many-to-One with Single direction filtering.
 
@@ -135,7 +140,8 @@ The **Prep data for AI** feature allows you to configure which parts of your sem
 
 1. Click **Prep data for AI** in the Home tab (Copilot section)
 
-![Prep data for AI Button](screenshots/5__Prep_Data_for_AI.png)
+<img width="1530" height="961" alt="5  Prep Data for AI" src="https://github.com/user-attachments/assets/0c351c12-a46d-4b6b-9b09-4e1b6e2a96ea" />
+
 
 The panel opens with three configuration options:
 
@@ -151,11 +157,13 @@ The panel opens with three configuration options:
 
 1. Click **Simplify the data schema** from the left sidebar
 
-![Simplify Data Schema Option](screenshots/6__SELECT_FIELD.png)
+<img width="1437" height="793" alt="6  SELECT FIELD" src="https://github.com/user-attachments/assets/328b98aa-af24-4a6c-a395-f8324c398df2" />
+
 
 2. The field selection interface displays all tables in your model
 
-![Field Selection Interface](screenshots/7__Simplify_the_data_option.png)
+<img width="1432" height="790" alt="7  Simplify the data option" src="https://github.com/user-attachments/assets/28c5de1d-99fa-4729-a190-c58744f226fc" />
+
 
 By default, all tables and columns are selected. The goal is to **deselect fields that could confuse the AI** or are not relevant for analysis.
 
@@ -215,7 +223,8 @@ The dim_Customers AR table contains duplicate columns from the merge operation. 
 
 After deselecting the tables and columns listed above, click **Apply** to save the schema configuration.
 
-![Apply Changes](screenshots/8__Apply_Changes.png)
+<img width="1421" height="785" alt="8  Apply Changes ( Field Selection )" src="https://github.com/user-attachments/assets/5f6b6c4f-d1ad-4120-a886-34e9fb025441" />
+
 
 The AI will now only have access to the selected fields, improving response accuracy.
 
@@ -242,7 +251,8 @@ AI Instructions provide context to help Copilot understand your data, business t
 
 1. Click **Add AI instructions** from the left sidebar
 
-![Add AI Instructions](screenshots/9__Add_AI_Instructions.png)
+<img width="1432" height="791" alt="9  Add AI Instructions" src="https://github.com/user-attachments/assets/aab625bb-eb7e-4381-882e-47bc4b9bbd1c" />
+
 
 ---
 
@@ -250,7 +260,8 @@ AI Instructions provide context to help Copilot understand your data, business t
 
 The editor accepts plain text or Markdown format (up to 10,000 characters). Enter your instructions and click **Apply**.
 
-![AI Instructions Editor with Apply](screenshots/10__AI_Instructions_Apply.png)
+<img width="1430" height="790" alt="10  Added Instructions" src="https://github.com/user-attachments/assets/9d6c9121-5300-4984-9320-5e3254ac9791" />
+
 
 ---
 
@@ -344,20 +355,11 @@ Performance Metrics:
 > The first set of instructions belongs in the semantic model — not just in the agent. This ensures consistency across all AI experiences (Copilot, Data Agent, M365).
 
 ---
-
-## Step 4: Add Verified Answers
-
-### Overview
-
-Verified answers allow you to save predefined responses for common business questions. When users ask questions that match these phrases, Copilot responds with the exact visual you configured — ensuring consistent, accurate answers for frequently asked questions.
-
----
-
 ### 4.1 Open Verified Answers
 
 1. Click **Verified answers** from the left sidebar in the Prep data for AI panel
 
-![Verified Answers Navigation](screenshots/11__Verified_Ans.png)
+<img width="1429" height="789" alt="11  Verified Ans" src="https://github.com/user-attachments/assets/8162d90e-94a3-4cd3-a187-5c0431b12033" />
 
 ---
 
@@ -365,7 +367,7 @@ Verified answers allow you to save predefined responses for common business ques
 
 The Verified answers panel displays setup instructions:
 
-![Verified Answers Setup Instructions](screenshots/12__Verfied_Ans_In_depth_.png)
+<img width="1430" height="785" alt="12  Verfied Ans(In depth)" src="https://github.com/user-attachments/assets/4993cd89-6e9e-49eb-aee0-645467122506" />
 
 | Step | Action |
 |------|--------|
@@ -383,7 +385,7 @@ Verified answers are created from the **Report view**, not from this panel direc
 2. Right-click on a visual you want to use as a verified answer
 3. Select **Set up a verified answer** from the context menu
 
-![Right-click to Set Up Verified Answer](screenshots/13__right_click_then_Verfied_ans.png)
+<img width="1433" height="799" alt="13  right click then Verfied ans" src="https://github.com/user-attachments/assets/5aa9acac-130d-428b-b07b-45b278b29e0d" />
 
 In this example, we're creating a verified answer from the **Total Open Balance by Aging Period Name** bar chart.
 
@@ -400,7 +402,7 @@ The configuration panel opens with two sections:
 
 Copilot provides AI-generated suggestions based on the visual's content:
 
-![Copilot Suggestions](screenshots/14__Verified_Ans_Suggestions.png)
+<img width="1425" height="791" alt="14  Verified Ans Suggestions" src="https://github.com/user-attachments/assets/e354883d-92e1-4d59-a27c-eeab79bc0181" />
 
 **Suggested Phrases for This Visual:**
 - Which aging buckets have the highest open balances?
@@ -418,7 +420,7 @@ Click **Refresh** to generate additional suggestions if needed.
 3. You can also type custom phrases in the "Enter a phrase" field
 4. Click **Apply** to save the verified answer
 
-![Add Phrases and Apply](screenshots/15__Click_on_them_to_add.png)
+<img width="1418" height="789" alt="15  Click on them to add" src="https://github.com/user-attachments/assets/4a7017cf-14fc-4396-98b6-b07f4d0e0c7a" />
 
 ---
 
@@ -470,7 +472,8 @@ Descriptions help Copilot understand the meaning and purpose of each table, colu
 2. Select a table or column in the diagram
 3. The **Properties** pane appears on the right side
 
-![Model View with Properties Pane](screenshots/16__Add_Descriptions.png)
+<img width="1929" height="920" alt="16  Add Desp" src="https://github.com/user-attachments/assets/3ddcc2f2-347c-4451-b4ae-077cacd32b1c" />
+
 
 The Properties pane displays:
 
@@ -683,7 +686,7 @@ After configuring the semantic model with AI optimizations (field selection, des
 
 1. Click the **Publish** button in the Home tab (Share section)
 
-![Publish Button](screenshots/17__Publish_Button.png)
+<img width="1917" height="790" alt="17  Publishing" src="https://github.com/user-attachments/assets/e74517ba-b468-42cf-9711-8df1e361c303" />
 
 ---
 
@@ -691,7 +694,7 @@ After configuring the semantic model with AI optimizations (field selection, des
 
 The **Publish to Power BI** dialog displays available workspaces:
 
-![Select Workspace](screenshots/18__Select_Workspace.png)
+<img width="1907" height="940" alt="18  Selecting Workspace" src="https://github.com/user-attachments/assets/496faca1-4375-4648-b4a0-1cb36b318507" />
 
 1. Select a workspace with **Fabric capacity** or **Premium capacity**
 2. Click **Select** to begin publishing
@@ -710,7 +713,7 @@ The **Publish to Power BI** dialog displays available workspaces:
 
 After successful publishing, a confirmation dialog appears:
 
-![Publish Success](screenshots/19__Publish_Success.png)
+<img width="1110" height="502" alt="19  Success" src="https://github.com/user-attachments/assets/e7c3f087-bf20-4a2e-8968-2fef65b3e5dc" />
 
 The dialog provides:
 - **Success** confirmation message
@@ -757,7 +760,7 @@ After publishing, verify the AI configurations in Power BI Service and ensure th
 1. Open **Power BI Service** (app.powerbi.com)
 2. Navigate to the workspace where you published the model
 
-![Workspace View](screenshots/20__Workspace_View.png)
+<img width="1893" height="827" alt="20  Appearance In Service" src="https://github.com/user-attachments/assets/acf7dd9a-cc1b-4e6b-8106-9dd32f2fdd0c" />
 
 The workspace displays both artifacts created during publishing:
 
@@ -772,7 +775,7 @@ The workspace displays both artifacts created during publishing:
 
 1. Click on the **Semantic model** row (not the Report)
 
-![Select Semantic Model](screenshots/21__Select_Semantic_Model.png)
+<img width="1893" height="827" alt="21  Click on Semantic model" src="https://github.com/user-attachments/assets/25cb05cb-ca4f-42da-ae32-a12b7cfd35f2" />
 
 The semantic model details page opens, showing model information and available actions.
 
@@ -782,7 +785,7 @@ The semantic model details page opens, showing model information and available a
 
 1. In the semantic model toolbar, click **Prep data for AI**
 
-![Prep Data for AI Button](screenshots/22__Prep_Data_for_AI_Service.png)
+<img width="1834" height="661" alt="22  Prerp data for AI in Service" src="https://github.com/user-attachments/assets/5f6a526f-90cb-4e71-86ce-baca6272680e" />
 
 The toolbar also provides access to other useful features:
 - **Explore this data** — Create ad-hoc reports
@@ -796,7 +799,7 @@ The toolbar also provides access to other useful features:
 
 The Prep data for AI panel may display a warning about large model storage:
 
-![Large Model Storage Warning](screenshots/23__Large_Model_Storage.png)
+<img width="1570" height="767" alt="23  Turn on large model semantic model" src="https://github.com/user-attachments/assets/dada6615-716d-4ae5-84ca-8bc25969f970" />
 
 If you see the message "Turn on the large semantic model storage format for this semantic model to prep your data for AI":
 
@@ -813,7 +816,7 @@ After enabling large model storage (if needed), verify that all configurations f
 
 **Simplify the Data Schema:**
 
-![Verify Schema](screenshots/24__Verify_Schema.png)
+<img width="1579" height="797" alt="24  V1" src="https://github.com/user-attachments/assets/f8da7329-1bb0-41f7-85d9-5e6da11ff87c" />
 
 Confirm that:
 - Core tables are selected (ARMetrics, dim_Aging Bucket, dim_Customers AR, dim_Date, fact_AR Invoices)
@@ -824,7 +827,7 @@ Confirm that:
 
 **Verified Answers:**
 
-![Verify Answers](screenshots/25__Verify_Answers.png)
+<img width="1562" height="786" alt="25  v2" src="https://github.com/user-attachments/assets/ac8db255-4c43-4fd0-a9e6-48d96dc3cb72" />
 
 Confirm that your verified answers are present with their associated phrases:
 - "Which customers have the highest open balances?" (3 phrases)
@@ -835,7 +838,7 @@ Confirm that your verified answers are present with their associated phrases:
 
 **AI Instructions:**
 
-![Verify Instructions](screenshots/26__Verify_Instructions.png)
+<img width="1565" height="796" alt="26  v3" src="https://github.com/user-attachments/assets/9847db22-8f32-40d3-a927-da686787f768" />
 
 Confirm that your AI instructions are present, including:
 - Time Intelligence guidance
@@ -886,7 +889,7 @@ Before creating the Fabric Data Agent, test the semantic model with Copilot in P
 2. Click on the **Report** (not the semantic model)
 3. The report opens in viewing mode
 
-![Report in Service](screenshots/27__Report_in_Service.png)
+<img width="1816" height="851" alt="image" src="https://github.com/user-attachments/assets/2bd45ea7-d82b-4c1f-936f-38f9fd35837f" />
 
 ---
 
@@ -894,9 +897,12 @@ Before creating the Fabric Data Agent, test the semantic model with Copilot in P
 
 1. Click the **Copilot** button in the top-right toolbar
 
-![Copilot Pane](screenshots/28__Copilot_Pane.png)
+<img width="1833" height="920" alt="27  Navigate to copilot chat" src="https://github.com/user-attachments/assets/4630b6c8-177d-4001-8537-d5f99ebf8aea" />
 
 The Copilot pane opens with several sections:
+
+<img width="1839" height="929" alt="27  Chat pane opened" src="https://github.com/user-attachments/assets/191e37e7-b4c6-443e-9569-df53f138d0d8" />
+
 
 | Section | Purpose |
 |---------|---------|
@@ -940,7 +946,7 @@ This question tests:
 
 Copilot returns both a narrative insight and a visualization:
 
-![Copilot Test Response](screenshots/29__Copilot_Test_Response.png)
+<img width="1842" height="918" alt="28  Testing Copilot chat ans" src="https://github.com/user-attachments/assets/14adfad3-36f8-47ff-907b-2acfdf0f485f" />
 
 **Narrative Response:**
 > "Based on the available data, the top 10 overdue accounts skew to Credit Risk Group C (7/10), all Wingtip Toys locations. Tailspin Toys appear twice in Group A (Clewiston, FL; South La Paloma, TX) and once in Group B (Hanoverton, OH)."
@@ -955,11 +961,11 @@ Copilot returns both a narrative insight and a visualization:
 
 Click **Explore answer** to open the interactive exploration view:
 
-![Explore Answer Button](screenshots/30__Explore_Answer_Button.png)
+<img width="1842" height="918" alt="29  Explore the ans" src="https://github.com/user-attachments/assets/1caf42b5-40a1-48e7-9a91-e3ab58f6a1d1" />
 
 The exploration view provides full interactivity:
 
-![Explore Answer View](screenshots/31__Explore_Answer_View.png)
+<img width="1520" height="842" alt="30  Expllored ans" src="https://github.com/user-attachments/assets/1d3bc395-e9aa-4bf6-8a30-1f70037d0282" />
 
 | Feature | Description |
 |---------|-------------|
@@ -1034,7 +1040,7 @@ A Fabric Data Agent is a generative AI agent that connects to your semantic mode
 1. Navigate to your workspace in Power BI Service
 2. Click **+ New item** in the toolbar
 
-![New Item Button](screenshots/32__New_Item.png)
+<img width="1896" height="682" alt="31  Creating Fabric Data Agent" src="https://github.com/user-attachments/assets/06f42d45-5105-45ad-a15c-b1734720d092" />
 
 ---
 
@@ -1043,7 +1049,8 @@ A Fabric Data Agent is a generative AI agent that connects to your semantic mode
 1. In the New item panel, search for "data agent"
 2. Select **Data agent (preview)** under "Analyze and train data"
 
-![Select Data Agent](screenshots/33__Select_Data_Agent.png)
+<img width="1834" height="886" alt="32  Finding Data agnet" src="https://github.com/user-attachments/assets/ef6344b0-d00b-40e1-a75b-a48bf2a81816" />
+
 
 The Data Agent is described as: "Build a generative AI agent that understands your data and can answer complex questions in a variety of conversational interfaces."
 
@@ -1054,7 +1061,7 @@ The Data Agent is described as: "Build a generative AI agent that understands yo
 1. Enter a name for your Data Agent (e.g., "AR Agent")
 2. Click **Create**
 
-![Name Data Agent](screenshots/34__Name_Data_Agent.png)
+<img width="1827" height="834" alt="33  Naming the agent" src="https://github.com/user-attachments/assets/a7bc026d-f0df-4a9b-a185-71f83d092f33" />
 
 ---
 
@@ -1062,7 +1069,7 @@ The Data Agent is described as: "Build a generative AI agent that understands yo
 
 The Data Agent editor opens with setup instructions:
 
-![Data Agent Editor](screenshots/35__Data_Agent_Editor.png)
+<img width="1831" height="803" alt="34  Selecting Data sourse" src="https://github.com/user-attachments/assets/6f528b52-8a86-4990-a38a-f353e678d20d" />
 
 The setup process involves three steps:
 1. Add a data source and select tables in the Explorer pane
@@ -1077,7 +1084,7 @@ Click **+ Data source** or **Add a data source** to continue.
 
 The OneLake catalog displays available data sources:
 
-![Select Semantic Model](screenshots/36__Select_Semantic_Model.png)
+<img width="1429" height="893" alt="35  Selecting Semantic model " src="https://github.com/user-attachments/assets/d6ef965c-415e-4a7b-80cb-97997327d7a4" />
 
 1. Locate your semantic model (**Better Decisions AR Analytics**)
 2. Select it and click **Connect**
@@ -1093,7 +1100,7 @@ You can filter by:
 
 After connecting, the Explorer pane shows the semantic model with all available tables:
 
-![Verify Tables](screenshots/37__Verify_Tables.png)
+<img width="1830" height="912" alt="36  Selecting tables" src="https://github.com/user-attachments/assets/04be4370-bbf2-455a-a2b7-2bc121c71421" />
 
 Confirm that all required tables are selected:
 - ✓ ARMetrics
@@ -1110,11 +1117,11 @@ The main panel displays the agent name and sample question prompts.
 
 1. Click the **Setup** tab in the Explorer pane
 
-![Setup Tab](screenshots/38__Setup_Tab.png)
+<img width="1830" height="912" alt="37  Go to setup" src="https://github.com/user-attachments/assets/0b224d6c-e24a-4027-a40b-8274e6b82008" />
 
 2. Click **Agent instructions** in the left panel to open the instructions editor
 
-![Agent Instructions Editor](screenshots/39__Agent_Instructions_Editor.png)
+<img width="1840" height="893" alt="38  Adding Instructions " src="https://github.com/user-attachments/assets/3bb14f17-9930-4756-adbd-1d02ac9693e0" />
 
 The instructions editor renders Markdown formatting, displaying your instructions with proper headings, bullet points, and sections. Agent instructions define the agent's persona, response guidelines, and behavioral rules.
 
@@ -1215,7 +1222,7 @@ Sharing a Data Agent requires careful attention to permissions. Access to the Da
 
 1. In the Data Agent editor, click the **Share** button in the top-right corner
 
-![Share Button](screenshots/40__Click_on_share.png)
+<img width="1818" height="894" alt="39  Click on share" src="https://github.com/user-attachments/assets/a005ccb8-accb-4464-865f-08978ad2e352" />
 
 ---
 
@@ -1223,7 +1230,8 @@ Sharing a Data Agent requires careful attention to permissions. Access to the Da
 
 The sharing dialog opens with options to share the agent:
 
-![Share Dialog](screenshots/41__Permission.png)
+<img width="818" height="643" alt="40  Permission" src="https://github.com/user-attachments/assets/ecd02719-34f0-49e7-9cac-dbc1b61ddbcf" />
+
 
 | Option | Description |
 |--------|-------------|
@@ -1240,7 +1248,7 @@ Click **People in your organization can view** to configure permission scope.
 
 Configure who can access the Data Agent:
 
-![Select Permissions](screenshots/42__Select_Permissions.png)
+<img width="543" height="771" alt="41  Select Permissions" src="https://github.com/user-attachments/assets/1ad1ef57-a31e-4eaf-b766-1be93cc60d90" />
 
 **People who can view this Data agent:**
 
@@ -1333,7 +1341,7 @@ Publishing makes the Data Agent available for use. There are two publishing opti
 
 For internal testing or Fabric-only access, leave the M365 toggle **Off**:
 
-![General Publish](screenshots/43__General_Publish.png)
+<img width="926" height="576" alt="42  General Publish" src="https://github.com/user-attachments/assets/990385c3-9573-4f23-8687-a041fc28e8ba" />
 
 | Field | Description |
 |-------|-------------|
@@ -1349,7 +1357,7 @@ Click **Publish** to make the agent available within Fabric.
 
 For access through Microsoft 365 Copilot, Excel, and other M365 applications, toggle the option **On**:
 
-![M365 Publish](screenshots/44__M365_Publish.png)
+<img width="844" height="554" alt="43  M365 Publish" src="https://github.com/user-attachments/assets/07325794-3129-476b-ac26-cd46cd4275af" />
 
 | Setting | Status |
 |---------|--------|
@@ -1401,7 +1409,7 @@ After publishing to the Microsoft 365 Copilot Agent Store, users with M365 Copil
 1. Navigate to **microsoft365.com/copilot** or open the M365 Copilot app
 2. In the left sidebar under **Agents**, locate your published agent
 
-![M365 Copilot Agents](screenshots/45__M365_Copilot_Agents.png)
+<img width="1914" height="1028" alt="44  Available in m365" src="https://github.com/user-attachments/assets/ac4ca5f0-07b5-499a-a4eb-6c27a0786ef0" />
 
 The AR Agent appears in the Agents list alongside other available agents in your organization.
 
@@ -1422,7 +1430,7 @@ The AR Agent appears in the Agents list alongside other available agents in your
 
 The AR Agent responds with a comprehensive, actionable analysis:
 
-![M365 Copilot Response](screenshots/46__M365_Copilot_Response.png)
+<img width="1905" height="1019" alt="45  Agent Response (m365)" src="https://github.com/user-attachments/assets/f6501994-32b4-46ef-a1bb-10a377d4bd7d" />
 
 **Sample Response:**
 
