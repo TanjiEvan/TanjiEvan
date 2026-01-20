@@ -45,7 +45,8 @@ We begin with an existing Power BI report and semantic model that follows best p
 
 Open your Power BI file. The report displays key AR metrics:
 
-![AR Dashboard](screenshots/step1-01-dashboard.png)
+<img width="1442" height="806" alt="image" src="https://github.com/user-attachments/assets/052125de-7f48-4cad-8213-4f8fe99a163f" />
+
 
 **Key Metrics Displayed:**
 
@@ -67,7 +68,8 @@ Open your Power BI file. The report displays key AR metrics:
 
 1. Click the **Model view** icon in the left sidebar
 
-![Going to Model View](screenshots/1__Going_to_Data_Model.png)
+<img width="1533" height="954" alt="1  Going to Data Model" src="https://github.com/user-attachments/assets/ee7f8a1f-aed3-4cfe-a3c1-b294483c168e" />
+
 
 ---
 
@@ -78,7 +80,8 @@ A **star schema** is the ideal structure for Fabric Data Agent. It consists of:
 - **Dimension tables** surrounding them with descriptive attributes
 - **Dimensions connect directly to fact tables** (no dimension-to-dimension chains)
 
-![Star Schema](screenshots/2__Star_Schema.png)
+<img width="1112" height="775" alt="2  Star Schema" src="https://github.com/user-attachments/assets/4fb01df0-1530-4a6c-980e-db7e9e767661" />
+
 
 **Our Model:**
 
@@ -97,13 +100,15 @@ The **Better Decisions AR Analytics** semantic model follows star schema design 
 
 1. Click **Manage relationships** in the Home tab
 
-![Manage Relationships](screenshots/3__Manage_Relations.png)
+<img width="1397" height="935" alt="3  Manage Relations" src="https://github.com/user-attachments/assets/91ebd8e2-099f-48f7-a6fc-a913c46763fc" />
+
 
 2. Verify all relationships show:
    - **Many-to-One** cardinality (`*:1`)
    - **Single** cross-filter direction
 
-![Relationships Dialog](screenshots/4__The_Relationships.png)
+<img width="846" height="740" alt="4  The Relationships" src="https://github.com/user-attachments/assets/d58bae4c-4da3-45cd-86e2-b65fb66e326e" />
+
 
 All relationships in our model are configured correctly as Many-to-One with Single direction filtering.
 
@@ -135,7 +140,8 @@ The **Prep data for AI** feature allows you to configure which parts of your sem
 
 1. Click **Prep data for AI** in the Home tab (Copilot section)
 
-![Prep data for AI Button](screenshots/5__Prep_Data_for_AI.png)
+<img width="1530" height="961" alt="5  Prep Data for AI" src="https://github.com/user-attachments/assets/0c351c12-a46d-4b6b-9b09-4e1b6e2a96ea" />
+
 
 The panel opens with three configuration options:
 
@@ -151,11 +157,13 @@ The panel opens with three configuration options:
 
 1. Click **Simplify the data schema** from the left sidebar
 
-![Simplify Data Schema Option](screenshots/6__SELECT_FIELD.png)
+<img width="1437" height="793" alt="6  SELECT FIELD" src="https://github.com/user-attachments/assets/328b98aa-af24-4a6c-a395-f8324c398df2" />
+
 
 2. The field selection interface displays all tables in your model
 
-![Field Selection Interface](screenshots/7__Simplify_the_data_option.png)
+<img width="1432" height="790" alt="7  Simplify the data option" src="https://github.com/user-attachments/assets/28c5de1d-99fa-4729-a190-c58744f226fc" />
+
 
 By default, all tables and columns are selected. The goal is to **deselect fields that could confuse the AI** or are not relevant for analysis.
 
@@ -215,7 +223,8 @@ The dim_Customers AR table contains duplicate columns from the merge operation. 
 
 After deselecting the tables and columns listed above, click **Apply** to save the schema configuration.
 
-![Apply Changes](screenshots/8__Apply_Changes.png)
+<img width="1421" height="785" alt="8  Apply Changes ( Field Selection )" src="https://github.com/user-attachments/assets/5f6b6c4f-d1ad-4120-a886-34e9fb025441" />
+
 
 The AI will now only have access to the selected fields, improving response accuracy.
 
@@ -242,7 +251,8 @@ AI Instructions provide context to help Copilot understand your data, business t
 
 1. Click **Add AI instructions** from the left sidebar
 
-![Add AI Instructions](screenshots/9__Add_AI_Instructions.png)
+<img width="1432" height="791" alt="9  Add AI Instructions" src="https://github.com/user-attachments/assets/aab625bb-eb7e-4381-882e-47bc4b9bbd1c" />
+
 
 ---
 
@@ -250,7 +260,8 @@ AI Instructions provide context to help Copilot understand your data, business t
 
 The editor accepts plain text or Markdown format (up to 10,000 characters). Enter your instructions and click **Apply**.
 
-![AI Instructions Editor with Apply](screenshots/10__AI_Instructions_Apply.png)
+<img width="1430" height="790" alt="10  Added Instructions" src="https://github.com/user-attachments/assets/9d6c9121-5300-4984-9320-5e3254ac9791" />
+
 
 ---
 
